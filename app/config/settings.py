@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # third party
     "corsheaders",
     "rest_framework",
+    "drf_spectacular",
     # local
     "accounts",
     "api",
@@ -133,3 +134,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # カスタムユーザーモデル
 AUTH_USER_MODEL = "accounts.CustomUser"
+
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
