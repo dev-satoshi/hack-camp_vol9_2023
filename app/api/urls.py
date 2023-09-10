@@ -5,10 +5,10 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from .views import SiteDetailView, SiteListCreateView, TaskDetailView, TaskListCreateView
 
 urlpatterns = [
-    path("sites/", SiteListCreateView.as_view()),
-    path("sites/<int:pk>/", SiteDetailView.as_view()),
-    path("tasks/", TaskListCreateView.as_view()),
-    path("tasks/<int:pk>/", TaskDetailView.as_view()),
+    path("site/", SiteListCreateView.as_view()),
+    path("site/<int:pk>/", SiteDetailView.as_view()),
+    path("task/", TaskListCreateView.as_view()),
+    path("task/<int:pk>/", TaskDetailView.as_view()),
 ]
 
 if settings.DEBUG:
