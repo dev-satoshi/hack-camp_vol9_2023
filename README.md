@@ -1,4 +1,4 @@
-# 【技育CAMP】マンスリーハッカソン vol.9
+# oshi-remind-backend
 Frontend https://github.com/SuperUltraTsuyoTsuyoEngineerTeam/oshi-rimind-frontend
 
 ### Technology
