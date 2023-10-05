@@ -35,7 +35,7 @@ $ docker-compose -f docker-compose.prod.yml up -d --build
 
 ### environmental variables
 
-.env.dev
+.env.sample
 ```
 DEBUG=1
 SECRET_KEY=change_me
