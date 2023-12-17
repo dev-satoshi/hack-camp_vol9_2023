@@ -1,13 +1,12 @@
 # oshi-remind-backend
 Frontend https://github.com/SuperUltraTsuyoTsuyoEngineerTeam/oshi-rimind-frontend
 
-### Technology
+<!--## DEMO-->
 
-### ER Diagram
+## Slide
+[Canva](https://www.canva.com/design/DAFuAl55a2E/MXj4ZJwDMG579XWrye7ePA/edit?utm_content=DAFuAl55a2E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-### Directory Configuration
-
-### Development
+## Development
 
 デフォルトのDjango開発サーバを使用します
 
@@ -20,7 +19,7 @@ $ docker-compose up -d --build
 
 [http://localhost:8000](http://localhost:8000)でテストしてください<br>
 
-### Production
+## Production
 
 Gunicornを使用します
 
@@ -35,7 +34,7 @@ $ docker-compose -f docker-compose.prod.yml up -d --build
 
 ### environmental variables
 
-.env.sample
+.env.example
 ```
 DEBUG=1
 SECRET_KEY=change_me
